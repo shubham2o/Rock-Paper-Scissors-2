@@ -3,7 +3,7 @@ const computerChoiceDisplay = document.createElement('h1');
 const resultDisplay = document.createElement('h1');
 const gameGrid = document.getElementById('game');
 
-gameGrid.appendChild(userChoiceDisplay, computerChoiceDisplay, resultDisplay);
+gameGrid.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay);
 
 const choices = ['rock', 'paper', 'scissors'];
 let userChoice;
